@@ -1,0 +1,32 @@
+{
+  "name": "ai-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/ms-rest-azure-js": "^2.1.0",
+    "@azure/msal-node": "^2.10.0",
+    "@google-cloud/language": "^6.4.0",
+    "@huggingface/inference": "^2.7.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "bullmq": "^5.8.3",
+    "cron": "^3.1.7",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^9.11.0",
+    "googleapis": "^140.0.1",
+    "ioredis": "^5.4.1",
+    "ms-rest-nodeauth": "^0.1.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.14",
+    "openai": "^4.52.2"
+  }
+}
